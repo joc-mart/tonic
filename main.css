@@ -1,3 +1,33 @@
+:root {
+    --green: #3e4f33;
+    --blue: #e8f5f3;
+    --purple: #f0e4ed;
+    --yellow: #feeccd;
+    --font-sans-serif: 'Roboto Mono', monospace;
+}
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 img {
     max-width: 100%;
+    display: block;
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/** typography **/
+body {
+    font-family: var(--font-sans-serif);
+    font-weight: 400;
+    color: var(--green);
+}
+h2 {
+    font-weight: 500;
 }
