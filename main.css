@@ -44,4 +44,9 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     align-items: center;
+    justify-items: center;
+    padding: 2rem;
+}
+header {
+    background-color: var(--blue);
 }
