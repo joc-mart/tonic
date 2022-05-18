@@ -50,3 +50,33 @@ a:hover {
 header {
     background-color: var(--blue);
 }
+/* hero section */
+.hero {
+    background-color: var(--blue);
+    border-bottom: 1px solid var(--green);
+    padding: 2rem;
+}
+.hero img {
+    width: 33%;
+}
+/* hours section */
+.hours {
+    background-color: var(--yellow);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+    border-bottom: 1px solid var(--green);
+}
+.hours img {
+    max-width: 33%;
+}
+/* location section */
+.location {
+    background-color: var(--purple);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+    border-bottom: 2px solid var(--green);
+}
