@@ -22,6 +22,11 @@ img {
     padding: 0;
     list-style: none;
 }
+/* universal css */
+.logo {
+    /* change this later??? *********/
+    max-width: 200px;
+}
 /** typography **/
 body {
     font-family: var(--font-sans-serif);
@@ -79,4 +84,13 @@ header {
     justify-content: space-around;
     padding: 2rem;
     border-bottom: 2px solid var(--green);
+}
+/* footer */
+footer {
+    background-color: var(--green);
+    padding: 2rem;
+}
+.fa-brands {
+    color: var(--yellow);
+    padding: 1rem;
 }
